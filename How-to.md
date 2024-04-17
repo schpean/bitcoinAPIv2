@@ -73,7 +73,7 @@ Let's verify deployment:
                 Forms             : {}
                 ...
                 "
-            Similar we can try for serviceB: "curl 98.64.252.105/service-b
+            Similar we can try for serviceB: "curl 98.64.252.105/service-b"
 
 To check if serviceA can not comunicate to serviceB.
         kubectl exec -it service-a-deployment-6f85cbdb49-56bgt -n default -- sh
